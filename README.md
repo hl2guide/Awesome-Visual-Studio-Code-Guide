@@ -191,6 +191,6 @@ To replace all lines that contain `A1` with `paper`:
 * In the __second__ field type in the string `paper`
 * Press `Enter` to perform one replacement __OR__ `Ctrl+Alt+Enter` to replace all occurences
 
-Refer to: [Use regular expressions in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/using-regular-expressions-in-visual-studio?view=vs-2019)
+For more info on the power of regular expressions please refer to: [Use regular expressions in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/using-regular-expressions-in-visual-studio?view=vs-2019)
 
 __Have fun!__
