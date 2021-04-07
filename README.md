@@ -1,3 +1,8 @@
+# Related Repositories
+
+* https://github.com/hl2guide/Awesome-Visual-Studio-Code-Extensions
+* https://github.com/hl2guide/Awesome-Visual-Studio-Code-Keyboard-Shortcuts
+
 # Input
 
 The vast majority of efficient input comes from typing on the keyboard.
@@ -122,5 +127,70 @@ Press `Ctrl+Shift+M` to view errors and warnings for the current document, depen
 ## IntelliSense
 
 For documents that support IntelliSense you can use `Ctrl+Space` while coding to get suggestions for method names, parameters etc.
+
+## Find
+
+To find a string within the current document:
+
+* Press `Ctrl+F`
+* Type in the search string
+* Press `Enter` to jump to the first result found
+
+## Find and Replace
+
+To replace one or all occurences of a string within the current document:
+
+* Press `Ctrl+H`
+* In the __first__ field type in the string to find
+* In the __second__ field type in the string to replace with
+* Press `Enter` to perform one replacement __OR__ `Ctrl+Alt+Enter` to replace all occurences
+
+### Regular Expression Replaces
+
+Regular expressions are powerful and allow for:
+
+* Prefixing
+* Suffixing
+* Pattern Matching
+
+While the replace dialog is active press `Alt+R` to toggle regular expressions on or off.
+
+#### Prefixing
+
+To add a string to the beginning of each line.
+
+Note: `(.*)` means "zero or more characters" and `$1` means "the entire line".
+
+E.g. to prefix `TEXT-`:
+
+* Press `Ctrl+H`
+* In the __first__ field type in `(.*)`
+* In the __second__ field type in the string `TEXT-$1`
+* Press `Enter` to perform one replacement __OR__ `Ctrl+Alt+Enter` to replace all occurences
+
+#### Suffixing
+
+To add a string to the end of each line.
+
+Note: `(.*)` means "zero or more characters" and `$1` means "the entire line".
+
+E.g. to suffix `.zip`:
+
+* Press `Ctrl+H`
+* In the __first__ field type in `(.*)`
+* In the __second__ field type in the string `$1.zip`
+* Press `Enter` to perform one replacement __OR__ `Ctrl+Alt+Enter` to replace all occurences
+
+#### Pattern Matching
+
+Note: `(.*)` means "zero or more characters".
+
+To replace all lines that contain `A1` with `paper`:
+* Press `Ctrl+H`
+* In the __first__ field type in `(.*)A1(.*)`
+* In the __second__ field type in the string `paper`
+* Press `Enter` to perform one replacement __OR__ `Ctrl+Alt+Enter` to replace all occurences
+
+Refer to: [Use regular expressions in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/using-regular-expressions-in-visual-studio?view=vs-2019)
 
 __Have fun!__
