@@ -41,16 +41,29 @@ You can set your own custom font (for any installed font) and whether to use _fo
 
 Ligatures make it so things like `!=` `==` and `===` render properly. Fonts __must__ support ligatures for it to take effect.
 
-For all coding I personally recommend using the font Iosevka:
+For all coding I personally recommend using the wonderful font __Iosevka__:
 https://github.com/be5invis/Iosevka
 
 Make sure that font installed and appears on an OS level first.
 
-On the settings page use the search bar to search for `Editor: Font Family`.
+On the settings page use the search bar to search for `Font Family`.
 
-For the `Editor: Font Family` result type in `Iosevka, sans-serif`.
+For the results:
 
-For the `Terminal › Integrated: Font Family` result type in `Iosevka Term, monospace`.
+- `Code Lens: Font Family`
+- `Editor: Font Family`
+- `Editor > Inlay Hints: Font Family`
+- `SCM: Input Font Family`
+- `Markdown > Preview: Font Family`
+
+type in `Iosevka, sans-serif`.
+
+Then for the results:
+
+- `Debug > Console: Font Family`
+- `Terminal> Integrated: Font Family`
+
+type in `Iosevka Term, monospace`.
 
 ## Tab Size
 
