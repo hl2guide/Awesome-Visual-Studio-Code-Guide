@@ -61,7 +61,7 @@ type in `Iosevka, sans-serif`.
 Then for the results:
 
 - `Debug > Console: Font Family`
-- `Terminal> Integrated: Font Family`
+- `Terminal > Integrated: Font Family`
 
 type in `Iosevka Term, monospace`.
 
