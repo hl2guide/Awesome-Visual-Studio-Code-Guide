@@ -1,3 +1,8 @@
+
+Version: 1.0.0
+
+Last Updated: 2021-11-29 12:43:49PM
+
 # Related Repositories
 
 * https://github.com/hl2guide/Awesome-Visual-Studio-Code-Extensions
